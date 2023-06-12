@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T07:52:56.587Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="mbA7VIoBfrXXPFruHeD5" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T07:56:25.244Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="EnFjZ2Xzw_jVm1WSiiOO" version="21.3.7" type="github">
   <diagram name="Page-1" id="JrUIfgVRSp0UM8ETx353">
-    <mxGraphModel dx="624" dy="318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2075" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="n7JFr-5hj81nrRRgK0mp-1" value="&lt;div&gt;modifier les parasols &lt;br&gt;&lt;/div&gt;&lt;div&gt;alloués à une &lt;br&gt;&lt;/div&gt;&lt;div&gt;réservation&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="50" width="140" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="n7JFr-5hj81nrRRgK0mp-3" value="s&#39;authentifier (email, mdp)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="110" width="140" height="50" as="geometry" />
         </mxCell>
@@ -27,6 +24,21 @@
         </mxCell>
         <mxCell id="n7JFr-5hj81nrRRgK0mp-9" value="Traiter une réservation" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="250" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n7JFr-5hj81nrRRgK0mp-10" value="Modifier les parasols alloués à une réservation" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="350" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n7JFr-5hj81nrRRgK0mp-11" value="Voir les clients" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="420" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n7JFr-5hj81nrRRgK0mp-12" value="Filtrer les clients (pays de résidence, date d&#39;inscription)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="420" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n7JFr-5hj81nrRRgK0mp-13" value="Se déconnecter" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="490" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n7JFr-5hj81nrRRgK0mp-14" value="&lt;div&gt;Concessionaire&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="280" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
