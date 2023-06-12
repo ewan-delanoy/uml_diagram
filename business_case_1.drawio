@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T07:29:47.754Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" version="21.3.7" etag="qK7Otat4lS3fVimwClsA" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T07:52:49.463Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="7SCfjfJ_s83J2lzQRZyN" version="21.3.7" type="github">
   <diagram name="Page-1" id="JrUIfgVRSp0UM8ETx353">
-    <mxGraphModel>
+    <mxGraphModel dx="624" dy="318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="n7JFr-5hj81nrRRgK0mp-1" value="&lt;div&gt;modifier les parasols &lt;br&gt;&lt;/div&gt;&lt;div&gt;alloués à une &lt;br&gt;&lt;/div&gt;&lt;div&gt;réservation&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="50" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n7JFr-5hj81nrRRgK0mp-3" value="s&#39;authentifier (email, mdp)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="110" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n7JFr-5hj81nrRRgK0mp-4" value="Voir le planning" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="170" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n7JFr-5hj81nrRRgK0mp-5" value="Voir les réservations" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="170" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n7JFr-5hj81nrRRgK0mp-6" value="Voir le détail d&#39;une réservation" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="170" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n7JFr-5hj81nrRRgK0mp-7" value="Valider une réservation" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="230" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n7JFr-5hj81nrRRgK0mp-8" value="Refuser une réservation" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="280" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n7JFr-5hj81nrRRgK0mp-9" value="Traiter une réservation" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="250" width="140" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
