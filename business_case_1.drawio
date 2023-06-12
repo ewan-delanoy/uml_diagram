@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T08:29:59.675Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="YnR0kIcoAyo1XqgD4hbd" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T08:31:45.162Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="U-5Lv2bZCuKCx9kT4Wjo" version="21.3.7" type="github">
   <diagram name="Page-1" id="JrUIfgVRSp0UM8ETx353">
     <mxGraphModel dx="1962" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,9 +31,6 @@
         <mxCell id="n7JFr-5hj81nrRRgK0mp-11" value="Voir les clients" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="420" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="n7JFr-5hj81nrRRgK0mp-12" value="Filtrer les clients (pays de résidence, date d&#39;inscription)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="420" width="140" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="n7JFr-5hj81nrRRgK0mp-13" value="Se déconnecter" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="490" width="140" height="50" as="geometry" />
         </mxCell>
@@ -59,7 +56,7 @@
             <mxPoint x="370" y="309.09000000000003" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n7JFr-5hj81nrRRgK0mp-21" value="&amp;lt;&amp;lt; extends &amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="n7JFr-5hj81nrRRgK0mp-21" value="&amp;lt;&amp;lt; extends &amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="n7JFr-5hj81nrRRgK0mp-12">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="250" y="444" as="sourcePoint" />
             <mxPoint x="370" y="444.09000000000003" as="targetPoint" />
@@ -131,6 +128,19 @@
         </mxCell>
         <mxCell id="n7JFr-5hj81nrRRgK0mp-35" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="70" width="720" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="n7JFr-5hj81nrRRgK0mp-12" value="&lt;div&gt;Filtrer les clients (par &lt;br&gt;&lt;/div&gt;&lt;div&gt;pays de résidence)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="n7JFr-5hj81nrRRgK0mp-35">
+          <mxGeometry x="310" y="300" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n7JFr-5hj81nrRRgK0mp-36" value="Filtrer les clients (par date d&#39;inscription)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="n7JFr-5hj81nrRRgK0mp-35">
+          <mxGeometry x="310" y="370" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n7JFr-5hj81nrRRgK0mp-37" value="&amp;lt;&amp;lt; extends &amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="n7JFr-5hj81nrRRgK0mp-35" source="n7JFr-5hj81nrRRgK0mp-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="190" y="439" as="sourcePoint" />
+            <mxPoint x="310" y="390" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
