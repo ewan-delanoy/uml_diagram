@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T11:58:01.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" version="21.3.7" etag="WkLzBZ4Xms7iHdZCc4i-" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T12:38:19.152Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="mxH1VTUIwgDwYRX-fJhx" version="21.3.7" type="github">
   <diagram name="Page-1" id="vLnumNjU1Ve4iZGHAOc5">
-    <mxGraphModel>
+    <mxGraphModel dx="1054" dy="1949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pTkRZTTF7Y6ZZpJIStuh-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-250" width="710" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="pTkRZTTF7Y6ZZpJIStuh-1" value="Rédiger un compte rendu de demande de prescription" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="300" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pTkRZTTF7Y6ZZpJIStuh-2" value="Rédiger un compte rendu de demande de soins" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="218" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pTkRZTTF7Y6ZZpJIStuh-3" value="Valider la date de sortie d&#39;un patient" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="113" y="381" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pTkRZTTF7Y6ZZpJIStuh-4" value="Percevoir le règlement d&#39;une facture d&#39;hospistalisation" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="137" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pTkRZTTF7Y6ZZpJIStuh-5" value="&lt;div&gt;Enregistrer un bon &lt;br&gt;&lt;/div&gt;&lt;div&gt;de sortie&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="113" y="56" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pTkRZTTF7Y6ZZpJIStuh-6" value="&lt;div&gt;Attribuer une chambre &lt;br&gt;&lt;/div&gt;&lt;div&gt;à un patient&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="113" y="-24" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pTkRZTTF7Y6ZZpJIStuh-7" value="Créer un nouveau dossier médical" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="113" y="-104" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pTkRZTTF7Y6ZZpJIStuh-8" value="&lt;div&gt;Rechercher les informations d&#39;un &lt;br&gt;&lt;/div&gt;&lt;div&gt;patient&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-184" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pTkRZTTF7Y6ZZpJIStuh-9" value="Mettre à jour les informations d&#39;un patient" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-190" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pTkRZTTF7Y6ZZpJIStuh-10" value="Saisir la liste des intervenants d&#39;un soin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="210" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pTkRZTTF7Y6ZZpJIStuh-11" value="&lt;div&gt;S&#39;authentifier&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="80" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pTkRZTTF7Y6ZZpJIStuh-14" value="&lt;div&gt;&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;API Stripe&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="840" y="160" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pTkRZTTF7Y6ZZpJIStuh-15" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pTkRZTTF7Y6ZZpJIStuh-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="230" as="sourcePoint" />
+            <mxPoint x="840" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pTkRZTTF7Y6ZZpJIStuh-16" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="pTkRZTTF7Y6ZZpJIStuh-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="-145" as="sourcePoint" />
+            <mxPoint x="420" y="-145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pTkRZTTF7Y6ZZpJIStuh-17" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="860" y="-190" as="sourcePoint" />
+            <mxPoint x="1020" y="-190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
