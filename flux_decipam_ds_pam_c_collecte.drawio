@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T13:25:58.504Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="4th7DTLuj_p3BgyeIlUj" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T13:31:28.237Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="ixRX8r32ZfHBVi7jUdUr" version="24.0.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1995" dy="1153" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2792" dy="1530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -186,61 +186,56 @@
         <mxCell id="ypgVBUXqUjG8dvaRugaR-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CollecteDsPamCJobListener.beforeJob:&amp;nbsp;&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;loggue les fichiers XML à traiter&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-14" y="922" width="354" height="71" as="geometry" />
         </mxCell>
-        <mxCell id="vLVHsrwQye5eSx9jJqd1-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ypgVBUXqUjG8dvaRugaR-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="325" y="1088" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ypgVBUXqUjG8dvaRugaR-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CollecteDsPamCFileValidationTasklet :&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;vérifie que le fichier XML&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;respecte une spécification XSD&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;ajoute des lignes aux tables &lt;b&gt;formulaire, journal&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-14" y="1019" width="353" height="100" as="geometry" />
+          <mxGeometry x="-4" y="1067" width="353" height="100" as="geometry" />
         </mxCell>
         <mxCell id="vLVHsrwQye5eSx9jJqd1-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CollecteDsPamCReader:&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;lit un fichier XML, retourne une &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;List&amp;lt;DecalarantInner&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-14" y="1149" width="354" height="68" as="geometry" />
+          <mxGeometry x="-5" y="1241" width="354" height="68" as="geometry" />
         </mxCell>
         <mxCell id="KYpUYDvrFZtHWe_mYUHW-0" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CollecteDsPamCProcessor:&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;prend un DeclarantInner, retourne un PamDgfip &lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-13.5" y="1238" width="354" height="68" as="geometry" />
+          <mxGeometry x="-11" y="1366" width="354" height="68" as="geometry" />
         </mxCell>
         <mxCell id="KYpUYDvrFZtHWe_mYUHW-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CollecteDsPamCWriter:&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;prend une List&amp;lt;PamDgfip&amp;gt;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;ajoute des lignes aux tables&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;pamDgfip, champsPamDgfip&lt;/b&gt; et &lt;b&gt;activitePamDgfip&lt;/b&gt; &lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-13.5" y="1327" width="352.5" height="89" as="geometry" />
+          <mxGeometry x="-7" y="1511" width="352.5" height="89" as="geometry" />
         </mxCell>
         <mxCell id="KYpUYDvrFZtHWe_mYUHW-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CollecteDsPamCStepListener.afterJob:&amp;nbsp;&lt;/font&gt; &lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;stocke le compte des entrées lues &amp;amp; traitées&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;dans le jobInfo&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-13.5" y="1437" width="354" height="71" as="geometry" />
+          <mxGeometry x="-5" y="1699" width="354" height="71" as="geometry" />
         </mxCell>
         <mxCell id="KYpUYDvrFZtHWe_mYUHW-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-25" y="1537" as="sourcePoint" />
-            <mxPoint x="352" y="1534" as="targetPoint" />
+            <mxPoint x="-23" y="1797" as="sourcePoint" />
+            <mxPoint x="364" y="1794" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KYpUYDvrFZtHWe_mYUHW-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-23" y="1139" as="sourcePoint" />
-            <mxPoint x="354" y="1136" as="targetPoint" />
+            <mxPoint x="-20" y="1219" as="sourcePoint" />
+            <mxPoint x="367" y="1216" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KYpUYDvrFZtHWe_mYUHW-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="1534" as="sourcePoint" />
-            <mxPoint x="349.99999999999994" y="1135" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KYpUYDvrFZtHWe_mYUHW-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-25" y="1539" as="sourcePoint" />
-            <mxPoint x="-25.000000000000057" y="1139" as="targetPoint" />
+            <mxPoint x="365" y="1792" as="sourcePoint" />
+            <mxPoint x="365" y="1218" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KYpUYDvrFZtHWe_mYUHW-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CollecteDsPamCLogVolumeTasklet :&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;ajoute une ligne à la table &lt;b&gt;formulaire&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="367" y="1495" width="268" height="101" as="geometry" />
+          <mxGeometry x="411" y="1790" width="268" height="101" as="geometry" />
         </mxCell>
         <mxCell id="KYpUYDvrFZtHWe_mYUHW-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CollecteDsPamArchivageFileInputTasklet :&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;archive le fichier XML traité&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="705" y="1499" width="313" height="101" as="geometry" />
+          <mxGeometry x="749" y="1794" width="313" height="101" as="geometry" />
         </mxCell>
         <mxCell id="KYpUYDvrFZtHWe_mYUHW-10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CollecteDsPamCJobListener.afterJob:&amp;nbsp;&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;loggue et envoie un mail de bilan&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1075" y="1499" width="354" height="98" as="geometry" />
+          <mxGeometry x="1119" y="1794" width="354" height="98" as="geometry" />
         </mxCell>
         <mxCell id="KYpUYDvrFZtHWe_mYUHW-11" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CollecteDsPamCRemainingFileTasklet :&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;regarde s&#39;il reste des fichiers XML à traiter &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;en marque un pour le prochain traitement&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="916" y="1119" width="353" height="100" as="geometry" />
+          <mxGeometry x="940" y="1401" width="353" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KYpUYDvrFZtHWe_mYUHW-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-21" y="1796" as="sourcePoint" />
+            <mxPoint x="-21" y="1216" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
