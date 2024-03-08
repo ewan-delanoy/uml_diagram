@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-08T09:41:29.136Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="lvfC2XAkFKKQslZttGf5" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T09:45:45.286Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="jaxQsp4MmJJqgmftBNfK" version="24.0.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2396" dy="965" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3592" dy="1530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -240,44 +240,32 @@
         <mxCell id="0iMnUcxqCF86Wchd9Drz-53" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;FAILED&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-912" y="1364" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rnLXUdkvbqKVa6h8ZcLA-0" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CollecteSnv2DetailValidationTasklet :&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;vérifie la cohérence entre header et corps&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;du fichier&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;stocke le compte dans jobInfo&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="104" y="1717" width="338" height="100" as="geometry" />
+        <mxCell id="rnLXUdkvbqKVa6h8ZcLA-0" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CollecteSnv2DetailValidationTasklet :&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;vérifie la cohérence entre header et corps&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;du fichier&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;stocke le compte dans jobInfo&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="86" y="1409" width="338" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rnLXUdkvbqKVa6h8ZcLA-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CollecteSnv2DetailValidationTasklet :&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;vérifie la cohérence entre header et corps&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;du fichier&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;stocke le compte dans jobInfo&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="106" y="1559" width="338" height="100" as="geometry" />
+        <mxCell id="rnLXUdkvbqKVa6h8ZcLA-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CollecteSnv2DetailValidationTasklet :&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;vérifie la cohérence entre header et corps&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;du fichier&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;stocke le compte dans jobInfo&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="84" y="1264" width="338" height="100" as="geometry" />
         </mxCell>
         <mxCell id="rnLXUdkvbqKVa6h8ZcLA-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ApplicationHelper.countBeforeApplication :&lt;/font&gt;&lt;/div&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;consulte &lt;/font&gt;&lt;b&gt;&lt;span style=&quot;font-size:10.0pt;mso-bidi-font-size:&lt;br/&gt;11.0pt;line-height:115%;font-family:&amp;quot;Arial&amp;quot;,sans-serif;mso-fareast-font-family:&lt;br/&gt;Calibri;mso-bidi-font-family:Calibri;mso-ansi-language:FR;mso-fareast-language:&lt;br/&gt;EN-US;mso-bidi-language:AR-SA&quot;&gt;champsPamSimplifiee&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;font-size:10.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:&lt;br/&gt;&amp;quot;Arial&amp;quot;,sans-serif;mso-fareast-font-family:Calibri;mso-bidi-font-family:Calibri;&lt;br/&gt;mso-ansi-language:FR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt; et &lt;b&gt;pamSimplifiee&lt;/b&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size:10.0pt;mso-bidi-font-size:11.0pt;line-height:115%;font-family:&lt;br/&gt;&amp;quot;Arial&amp;quot;,sans-serif;mso-fareast-font-family:Calibri;mso-bidi-font-family:Calibri;&lt;br/&gt;mso-ansi-language:FR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;stocke les nombres de lignes dans jobInfo&lt;br&gt;&lt;br/&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="590" y="966" width="338" height="101" as="geometry" />
+          <mxGeometry x="594" y="994" width="338" height="101" as="geometry" />
         </mxCell>
         <mxCell id="rnLXUdkvbqKVa6h8ZcLA-3" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;CollecteSnv2JobListener.beforeJob :&lt;/font&gt;&lt;/div&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;consulte la table &lt;b&gt;campagne&lt;/b&gt;,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;vérifie qu&#39;il y a une ligne pour l&#39;année considérée&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="592" y="1110" width="338" height="101" as="geometry" />
+          <mxGeometry x="588" y="1160" width="338" height="101" as="geometry" />
         </mxCell>
         <mxCell id="rnLXUdkvbqKVa6h8ZcLA-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CollecteSnv2CreateFormulaireTasklet :&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;créé une nouvelle ligne dans la table &lt;b&gt;formulaire&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="592" y="1254" width="338" height="100" as="geometry" />
+          <mxGeometry x="594" y="1328" width="338" height="100" as="geometry" />
         </mxCell>
         <mxCell id="rnLXUdkvbqKVa6h8ZcLA-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CollecteSnv2FileValidationTasklet :&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;vérifie le format du nom du fichier&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;vérifie que le fichier n&#39;est pas vide&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="590" y="1397" width="338" height="100" as="geometry" />
+          <mxGeometry x="598" y="1477" width="338" height="100" as="geometry" />
         </mxCell>
         <mxCell id="rnLXUdkvbqKVa6h8ZcLA-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CollecteSnv2DetailValidationTasklet :&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;vérifie la cohérence entre header et corps&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;du fichier&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;stocke le compte dans jobInfo&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="586" y="1540" width="338" height="100" as="geometry" />
+          <mxGeometry x="594" y="1642" width="338" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rnLXUdkvbqKVa6h8ZcLA-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="763" y="1211" as="sourcePoint" />
-            <mxPoint x="763" y="1253" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rnLXUdkvbqKVa6h8ZcLA-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="767" y="1356" as="sourcePoint" />
-            <mxPoint x="767" y="1397" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rnLXUdkvbqKVa6h8ZcLA-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CollecteSnv2DetailValidationTasklet :&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;vérifie la cohérence entre header et corps&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;du fichier&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;stocke le compte dans jobInfo&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1066" y="1546" width="338" height="100" as="geometry" />
+        <mxCell id="rnLXUdkvbqKVa6h8ZcLA-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CollecteSnv2DetailValidationTasklet :&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;vérifie la cohérence entre header et corps&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;du fichier&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;stocke le compte dans jobInfo&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1116" y="1411" width="338" height="100" as="geometry" />
         </mxCell>
         <mxCell id="rnLXUdkvbqKVa6h8ZcLA-13" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CollecteSnv2DetailValidationTasklet :&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;vérifie la cohérence entre header et corps&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;du fichier&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;stocke le compte dans jobInfo&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1076" y="1388" width="338" height="100" as="geometry" />
+          <mxGeometry x="1116" y="1274" width="338" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
