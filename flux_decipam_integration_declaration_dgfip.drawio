@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-14T09:35:03.051Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="AI04OnS7xC0EaUNYPxv7" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-14T09:39:29.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="wtsr2lN5iF1j7Xyr3KaT" version="24.0.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1480" dy="965" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2560" dy="1930" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -11,24 +11,11 @@
             <mxPoint x="375" y="319.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z0-859JoU0TvKjbYaFMb-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.648;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Z0-859JoU0TvKjbYaFMb-17" target="Z0-859JoU0TvKjbYaFMb-14" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="200" y="-200" as="sourcePoint" />
-            <mxPoint x="250" y="-200" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Z0-859JoU0TvKjbYaFMb-14" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;IntegrationSelectionGetInfoTasklet :&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;Récupération des données en base, stockage dans IntegrationSelectionJobInfo" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="50" y="-170" width="270" height="100" as="geometry" />
-        </mxCell>
         <mxCell id="Z0-859JoU0TvKjbYaFMb-15" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Tasklet GetInfo&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="-210" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Z0-859JoU0TvKjbYaFMb-17" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;IntegrationSelectionJobListener.beforeJob:&amp;nbsp;&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;campagne.topMaintenanceTeledep mise à true en base" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="30" y="-320" width="350" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="Z0-859JoU0TvKjbYaFMb-18" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Listener.beforeJob&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="40" y="-360" width="150" height="50" as="geometry" />
+        <mxCell id="Z0-859JoU0TvKjbYaFMb-17" value="&lt;div&gt;IntegrationDeclarationDgfipJobListener.beforeJob&lt;/div&gt;&lt;div&gt;campagne.topMaintenanceTeledep mise à true en base&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-175" y="-630" width="350" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Z0-859JoU0TvKjbYaFMb-19" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;IntegrationSelectionJobListener.afterJob:&amp;nbsp;&lt;/font&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;campagne.topMaintenanceTeledep mise à false en base&lt;br&gt;Envoi de mails " style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="50" y="510" width="350" height="100" as="geometry" />
