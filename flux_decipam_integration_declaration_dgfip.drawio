@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-14T11:19:45.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="QrRf2aMRNkjFGa4glY6t" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-14T11:27:29.406Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="m_stP0Mjtl3AYknPaDxl" version="24.0.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2120" dy="1955" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2520" dy="1955" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -85,11 +85,11 @@
         <mxCell id="fWSNl2cbkjF6wr-oGvCW-29" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;IntegrationDeclarationDgfipByNirReader :&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;consulte les tables&amp;nbsp; &lt;b&gt;activite_pam, declarant, &lt;br&gt;declarant_dgfip, pam_dgfip, selection.&lt;/b&gt;&lt;br&gt;retourne un IntegrationDeclarationByNirQueryResult&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-101" y="237" width="593" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="fWSNl2cbkjF6wr-oGvCW-30" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;IntegrationDeclarationDgfipByNirProcessor :&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="fWSNl2cbkjF6wr-oGvCW-30" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;IntegrationDeclarationDgfipByNirProcessor :&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;prend un IntegrationDeclarationByNirQueryResult&lt;br&gt;consulte les tables &lt;b&gt;activite_pam, declarant, declarant_dgfip, &lt;br&gt;pam_dgfip, selection&lt;/b&gt;, et l&#39;API GA-PAM&lt;br&gt;retourne un IntegrationDeclarationMetaDeclaration&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="590" y="231.5" width="593" height="167" as="geometry" />
         </mxCell>
-        <mxCell id="fWSNl2cbkjF6wr-oGvCW-31" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;IntegrationDeclarationDgfipByNirGeneralWriter :&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1288" y="249" width="593" height="132" as="geometry" />
+        <mxCell id="fWSNl2cbkjF6wr-oGvCW-31" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;IntegrationDeclarationDgfipByNirGeneralWriter :&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;prend une List&amp;lt;IntegrationDeclarationMetaDeclaration&amp;gt; &lt;br&gt;consulte les tables &lt;b&gt;origine_declaration, dispositif, type_declaration&lt;/b&gt; &lt;br&gt;ajoute des lignes dans &lt;b&gt;activite_declarant_dgfip_pam, activite_pam, complement_declarant, declarant, declarant_dgfip_pam, declaration, element, formulaire, selection&lt;/b&gt; &lt;br&gt;supprime des lignes dans &lt;b&gt;activite_declarant_dgfip_pam, activite_pam_dgfip, &lt;br&gt;champs_pam_dgfip et pam_dgfip&lt;/b&gt;.&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1296" y="214" width="593" height="221" as="geometry" />
         </mxCell>
         <mxCell id="fWSNl2cbkjF6wr-oGvCW-32" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -120,6 +120,42 @@
         </mxCell>
         <mxCell id="fWSNl2cbkjF6wr-oGvCW-37" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;IntegrationDeclarationDgfipJobListener.afterJob :&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;met à jour &lt;b&gt;nir_type_99_declarant_seq&lt;/b&gt; et &lt;b&gt;pam_dgfip&lt;/b&gt; &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;loggue le bilan, envoie un mail&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-106" y="557" width="593" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="fWSNl2cbkjF6wr-oGvCW-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-741" y="193" as="sourcePoint" />
+            <mxPoint x="-680" y="193" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fWSNl2cbkjF6wr-oGvCW-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-731" y="203" as="sourcePoint" />
+            <mxPoint x="-670" y="203" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fWSNl2cbkjF6wr-oGvCW-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="503" y="-66.17000000000002" as="sourcePoint" />
+            <mxPoint x="603" y="-66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fWSNl2cbkjF6wr-oGvCW-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="494" y="316.33" as="sourcePoint" />
+            <mxPoint x="594" y="316.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fWSNl2cbkjF6wr-oGvCW-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1197" y="-68.00000000000001" as="sourcePoint" />
+            <mxPoint x="1297" y="-67.83" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fWSNl2cbkjF6wr-oGvCW-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1183" y="329" as="sourcePoint" />
+            <mxPoint x="1295" y="325" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
