@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T13:59:56.987Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="ZmrhEZkVkVJU44WNQMB2" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-21T14:02:08.822Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="-mz4r0jd122oVIvrrhkL" version="24.0.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2490" dy="166" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2920" dy="400" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -154,7 +154,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5EcCI7HD8SH_t5lJPGSU-13" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;BeforeExecutionTasklet :&lt;/font&gt;&lt;/div&gt; &lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;consulte la table &lt;b&gt;assure&lt;/b&gt;,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;remplit les champs &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size:10.0pt;mso-bidi-font-size:11.0pt;&lt;br/&gt;line-height:115%;font-family:&amp;quot;Arial&amp;quot;,sans-serif;mso-fareast-font-family:Calibri;&lt;br/&gt;mso-bidi-font-family:Calibri;mso-ansi-language:FR;mso-fareast-language:EN-US;&lt;br/&gt;mso-bidi-language:AR-SA&quot;&gt;pilotageResultatEntityList, idAssureRetenu&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Arial&amp;quot;, sans-serif;&quot;&gt;dan&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Arial&amp;quot;, sans-serif;&quot;&gt;s un PilotageArEntity&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="226" y="1354" width="314" height="100" as="geometry" />
+          <mxGeometry x="144" y="1346" width="314" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5EcCI7HD8SH_t5lJPGSU-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="461" y="1401" as="sourcePoint" />
+            <mxPoint x="600" y="1401" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5EcCI7HD8SH_t5lJPGSU-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1113" y="1395" as="sourcePoint" />
+            <mxPoint x="1340" y="1395" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
